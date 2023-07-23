@@ -3,6 +3,7 @@ function TodoItem(props) {
         <>
         <h2>{props.todo}</h2>
         <h3>{props.time}</h3>
+        
         </>
     )
 }
