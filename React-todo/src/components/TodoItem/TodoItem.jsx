@@ -1,10 +1,9 @@
 function TodoItem(props) {
     return(
-        <>
-        <h2>{props.todo}</h2>
-        <h3>{props.time}</h3>
+        <div>
+        <h2>{props.todo} - {props.time}</h2>
         
-        </>
+        </div>
     )
 }
 

@@ -20,7 +20,7 @@ function AddTodo(props) {
     return(
         <>
             <input type="text" onChange={getTodo}></input>
-            <input type="time" onChange={getTime}></input>
+            <input type="text" onChange={getTime}></input>
             <button className='btn' onClick={handleClick}>Add todo</button>
         </>
     )
